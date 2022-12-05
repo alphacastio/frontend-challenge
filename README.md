@@ -1,6 +1,6 @@
 # Alphacast Frontend Challenge
 
-You must create a web page with Next.JS, React and Typescript to consume the PokeAPI, and build a List/Detail view.
+You must create a web page with Next.JS, React and Typescript to consume the [PokeAPI](https://pokeapi.co), and build a List/Detail view.
 
 In the list view, you may accomplish the following statements:
 
@@ -13,7 +13,7 @@ In the list view, you may accomplish the following statements:
 
 In the detail view, you may accomplish the following statements:
 
-- Detail the number, name, photo, types, generation
+- Detail the number, name, photo, types, generation, height, weight, 
 - Make a spider chart with the ability points of the pokemon with d3.js library, values are between 0-200
 
 ![deatil mockup](/images/detail.png)
@@ -26,4 +26,4 @@ If you're not familiar with GraphQL, we leave here the query that you have to ma
 
 We strongly recommend using TailwindCSS for styles (Spoiler, we use that)
 
-Feel free to ask questions if you needed.
+Feel free to ask questions if you needed. This challenge is ready to be accomplished in a week.
