@@ -9,16 +9,16 @@ In the list view, you may accomplish the following statements:
 - Search pokemon by name, the user will be able to use '?' to represent a missing character in the name, and '*' to represent a missing part of the name.
 - List the name, photo, generation, types, and order number of them
 
-[list mockup](/images/master.png)
+![list mockup](/images/master.png)
 
 In the detail view, you may accomplish the following statements:
 
 - Detail the number, name, photo, types, generation
 - Make a spider chart with the ability points of the pokemon with d3.js library, values are between 0-200
 
-[deatil mockup](/images/detail.png)
+![deatil mockup](/images/detail.png)
 
-[stats example](/images/stats.jpg)
+![stats example](/images/stats.jpg)
 
 You may have to create a GitHub repository and record the process of building the challenge there. (if you make a private repository please add @emacosti06 and @masaez to review it)
 
