@@ -1,0 +1,44 @@
+query pokemons {
+	pokemon: pokemon_v2_pokemon(limit: 10000, where: {
+		_and:{
+			order: {_gt: 0}
+			is_default:{ _eq:true}
+		}
+	}) {
+		id
+		name
+		order
+		height
+		weight
+		game_indices:	pokemon_v2_pokemongameindices(limit:100) {
+			version: pokemon_v2_version {
+				name
+			}
+		}
+
+		stats: pokemon_v2_pokemonstats(limit:100) {
+			stat : pokemon_v2_stat {
+				name,
+			}
+			base_stat
+
+		}
+		types: pokemon_v2_pokemontypes(limit:1000) {
+			type: pokemon_v2_type{
+				name
+			}
+		}
+	}
+}
+
+query gameIndices {
+	game_indices : pokemon_v2_version(limit:100) {
+		name
+	}
+}
+
+query types {
+	types: pokemon_v2_type(limit:1000){
+		name
+	}
+}

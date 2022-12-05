@@ -14,11 +14,14 @@ In the list view, you may accomplish the following statements:
 In the detail view, you may accomplish the following statements:
 
 - Detail the number, name, photo, types, generation
-- Make a spider chart with the ability points of the pokemon with d3.js library
+- Make a spider chart with the ability points of the pokemon with d3.js library, values are between 0-200
 
 [deatil mockup](/images/detail.png)
 
+[stats example](/images/stats.jpg)
+
 You may have to create a GitHub repository and record the process of building the challenge there. (if you make a private repository please add @emacosti06 and @masaez to review it)
+
 If you're not familiar with GraphQL, we leave here the query that you have to make to get the needed data.
 
 We strongly recommend using TailwindCSS for styles (Spoiler, we use that)
